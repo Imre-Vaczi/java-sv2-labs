@@ -8,7 +8,7 @@ public class Calculator {
         System.out.println("Please provide an other integer: ");
         int secInt = scanner.nextInt();
         int result = firstInt + secInt;
-        System.out.println(Integer.toString(firstInt) + " + " + Integer.toString(secInt));
+        System.out.println(firstInt + " + " + secInt);
         System.out.println("(" + result + ")");
 
     }
