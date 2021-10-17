@@ -16,18 +16,18 @@ public class Bank {
         BankAccount bankAccount = new BankAccount(accountNumber, owner, balance);
 
         System.out.println("Actual: ");
-        bankAccount.getInfo();
+        System.out.println(bankAccount.getInfo());
 
         System.out.println("Enter the amount you wish to withdraw: ");
         bankAccount.withdraw(scanner.nextInt());
 
         System.out.println("Actual: ");
-        bankAccount.getInfo();
+        System.out.println(bankAccount.getInfo());
 
         System.out.println("Enter the amount you wish to deposit: ");
         bankAccount.deposit(scanner.nextInt());
 
         System.out.println("Actual: ");
-        bankAccount.getInfo();
+        System.out.println(bankAccount.getInfo());
     }
 }
