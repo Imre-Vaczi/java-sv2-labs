@@ -14,10 +14,15 @@ public class Investment {
     }
 
     public int getFund(){return this.fund;}
+    public int getInterestRate(){return this.interestRate;}
 
-    public double getYield(int days){return this.fund * this.interestRate / 100 / 365 * days;}
+    public double getYield(int days){return this.fund * this.interestRate * days / 100 / 365 ;}
 
     public double close(int days){
-        return this.active == false ? 0 : getYield(days) + getFund() - (getFund() * this.cost / 100 / 365 * days );
+        double stat = getYield(days) + getFund() - ( (getYield(days) + getFund()) * this.cost / 100.0 / 365.0 * days );
+        double finalStat = this.active == false ? 0 : stat;
+        this.active = false;
+        return finalStat;
+
     }
 }
