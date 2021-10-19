@@ -13,6 +13,10 @@ public class InvestmentMain {
 
         Investment investment = new Investment(fund, interestRate);
 
+        System.out.println("Befektetés összege: ");
+        System.out.println(investment.getFund());
+        System.out.println("Kamatláb: ");
+        System.out.println(investment.getInterestRate());
         System.out.println("Tőke: " + investment.getFund());
         System.out.println("Hozam " + days + " napra: " + investment.getYield(days));
         System.out.println("Kivett összeg " + days + " nap után: " + investment.close(days));
