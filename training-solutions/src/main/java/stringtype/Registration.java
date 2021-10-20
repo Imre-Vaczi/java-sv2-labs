@@ -15,9 +15,9 @@ public class Registration {
 
         UserValidator userValidator = new UserValidator();
 
-        System.out.println("username correct: "+userValidator.isValidUsername(username));
-        System.out.println("email correct: " + userValidator.isValidEmail(email));
-        System.out.println("pass correct: "+userValidator.isValidPassword(password1,password1));
+        System.out.println(userValidator.isValidUsername(username) ? "username correct":"username incorrect");
+        System.out.println(userValidator.isValidEmail(email) ? "email correct" : "email incorrect" );
+        System.out.println(userValidator.isValidPassword(password1,password1) ? "pass correct" : "pass incorrect");
 
     }
 }
