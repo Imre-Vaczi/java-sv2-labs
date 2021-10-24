@@ -16,7 +16,7 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 * [X] [Java API videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709757-java-api)
 * [X] Java API gyakorlati feladat
 * [X] [JAR állomány videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709835-jar-allomany)
-* [ ] JAR állomány gyakorlati feladat
+* [X] JAR állomány gyakorlati feladat
 * [X] [Szöveges típus](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709758-szoveges-tipus)
 * [X] Szöveges típus gyakorlati feladat
 * [X] [Sortörés kezelése](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28188842-sortores-kezelese)
@@ -57,7 +57,7 @@ a bonyolultabb típusokat fogjátok alapszinten megismerni.
 * [X] 2021-10-18 konzultáció gyakorlati feladat
 * [X] 2021-10-19 konzultáció részvétel/videó
 * [X] 2021-10-19 konzultáció gyakorlati feladat
-* [ ] 2021-10-21 konzultáció részvétel/videó
-* [ ] 2021-10-21 konzultáció gyakorlati feladat
-* [ ] 2021-10-22 konzultáció részvétel/videó
-* [ ] 2021-10-22 konzultáció gyakorlati feladat
+* [X] 2021-10-21 konzultáció részvétel/videó
+* [X] 2021-10-21 konzultáció gyakorlati feladat
+* [X] 2021-10-22 konzultáció részvétel/videó
+* [X] 2021-10-22 konzultáció gyakorlati feladat
