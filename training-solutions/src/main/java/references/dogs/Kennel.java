@@ -6,22 +6,57 @@ import java.util.List;
 
 public class Kennel {
     public static void main(String[] args) {
-        List<Dog> dog = new ArrayList(Arrays.asList());
+        List<Dog> dogs = new ArrayList(Arrays.asList());
 
-        dog.add(new Dog("Frakk",3,"barna"));
-        dog.add(new Dog("Jürgen", 6,"tarka"));
-        dog.add(new Dog("Plútó", 10, "világos"));
+        Dog kutyOne = new Dog("Aa", 1, "zsemle");
+        dogs.add(kutyOne);
 
-        System.out.println(dog.toString());
-        dog.add(dog.get(1));
-        System.out.println(dog.toString());
-        Dog nextDog = new Dog("Boci", 13, "fekete");
-        System.out.println(nextDog.toString());
-        nextDog = dog.get(1);
-        System.out.println(nextDog.toString());
-        dog.add(nextDog);
-        System.out.println(dog.toString());
-        // értem mi történik, csak 10+ óra munka után túl hosszú nekem ez a feladat. Nagyon tanulságos, világos, hogy mizu.
+        Dog kutyTwo = new Dog("Bé", 2, "kakaó");
+        dogs.add(kutyTwo);
 
+        Dog kutyThree = new Dog("Cé", 3, "szén");
+        dogs.add(kutyThree);
+
+        System.out.println(dogs);
+
+        Dog kutyFour = dogs.get(1);
+        kutyFour.setColour("vaj");
+
+        System.out.println(dogs);
+
+        Dog kutyFive = new Dog("Dé", 5, "avar");
+        System.out.println(kutyFive);
+
+        kutyFive = dogs.get(1);
+        System.out.println(kutyFive);
+
+        dogs.add(kutyFive);
+        System.out.println(dogs);
+
+        Dog kutySix = kutyFour;
+        kutySix.setColour("tarka");
+
+        System.out.println(dogs);
+
+        List<Dog> alterDogs = dogs;
+
+        Dog kutySeven = kutyFour;
+        kutySeven.setColour("mák");
+
+        System.out.println(alterDogs);
+
+        kutySeven.setColour("ében");
+        System.out.println(alterDogs);
+
+        kutyTwo = null;
+        System.out.println(alterDogs);
+
+        Dog kutyEight = dogs.get(1);
+        kutyEight = null;
+        System.out.println(alterDogs);
+
+        Dog kutyNine = dogs.get(1);
+        kutyNine.setColour("tiramisu");
+        System.out.println(alterDogs);
     }
 }
