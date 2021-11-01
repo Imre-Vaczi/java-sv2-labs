@@ -59,7 +59,7 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 ## Konzultációk
 
 * [X] 2021-10-25 konzultáció részvétel/videó
-* [ ] 2021-10-25 konzultáció gyakorlati feladat
+* [X] 2021-10-25 konzultáció gyakorlati feladat
 * [X] 2021-10-26 konzultáció részvétel/videó
 * [ ] 2021-10-26 konzultáció gyakorlati feladat
 * [X] 2021-10-28 konzultáció részvétel/videó
