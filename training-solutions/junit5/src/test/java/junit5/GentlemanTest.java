@@ -10,4 +10,11 @@ public class GentlemanTest {
         String textForChecking = gentleman.sayHello("John Doe");
         assertEquals("Hello John Doe", textForChecking);
     }
+
+    @Test
+    void testTheNullClass(){
+        Gentleman gentleman = new Gentleman();
+        String textForChecking = gentleman.sayHello(null);
+        assertEquals("Hello Anonymous", textForChecking);
+    }
 }
