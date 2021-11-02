@@ -8,6 +8,5 @@ public class Gentleman {
         }else{
             return this.message + name;
         }
-
     }
 }
