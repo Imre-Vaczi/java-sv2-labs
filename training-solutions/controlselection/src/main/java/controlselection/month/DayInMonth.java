@@ -3,93 +3,70 @@ package controlselection.month;
 public class DayInMonth {
     public int getDayInMonth(int year, String month){
         int leapYear;
-        if (((year % 4 == 0) & (year % 100 != 0)) || ((year % 4 == 0) & (year % 100 != 0) & (year % 400 ==0))){
+        if (((year % 4 == 0) && !(year % 100 == 0)) || (year % 400 == 0)){
             leapYear = 1;
         }else{
             leapYear = 0;
         }
         month = month.toLowerCase();
-        int result = 0;
+        int result;
         switch (leapYear){
             case 0:
                 switch (month){
                     case "január":
-                        result = 31;
-                        break;
+                        return 31;
                     case "február":
-                        result = 28;
-                        break;
+                        return 28;
                     case "március":
-                        result = 31;
-                        break;
+                        return 31;
                     case "április":
-                        result = 30;
-                        break;
+                        return 30;
                     case "május":
-                        result = 31;
-                        break;
+                        return  31;
                     case "június":
-                        result = 30;
-                        break;
+                        return 30;
                     case "július":
-                        result = 31;
-                        break;
+                        return  31;
                     case "augusztus":
-                        result = 31;
-                        break;
+                        return 31;
                     case "szeptember":
-                        result =30;
-                        break;
+                        return 30;
                     case "október":
-                        result = 31;
-                        break;
+                        return 31;
                     case "november":
-                        result = 30;
-                        break;
+                        return 30;
                     case "december":
-                        result = 31;
-                        break;
+                        return 31;
                 }
             case 1:
                 switch (month){
                     case "január":
-                        result = 31;
-                        break;
+                        return 31;
                     case "február":
-                        result = 29;
-                        break;
+                        return 29;
                     case "március":
-                        result = 31;
-                        break;
+                        return 31;
                     case "április":
-                        result = 30;
-                        break;
+                        return 30;
                     case "május":
-                        result = 31;
-                        break;
+                        return  31;
                     case "június":
-                        result = 30;
-                        break;
+                        return 30;
                     case "július":
-                        result = 31;
-                        break;
+                        return  31;
                     case "augusztus":
-                        result = 31;
-                        break;
+                        return 31;
                     case "szeptember":
-                        result =30;
-                        break;
+                        return 30;
                     case "október":
-                        result = 31;
-                        break;
+                        return 31;
                     case "november":
-                        result = 30;
-                        break;
+                        return 30;
                     case "december":
-                        result = 31;
-                        break;
+                        return 31;
                 }
+            default:
+                return 0;
         }
-    return result;
     }
 }

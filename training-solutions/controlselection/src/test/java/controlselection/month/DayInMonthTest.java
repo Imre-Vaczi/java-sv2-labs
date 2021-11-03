@@ -11,8 +11,8 @@ class DayInMonthTest {
         DayInMonth dayInMonth = new DayInMonth();
         assertEquals(29, dayInMonth.getDayInMonth(2020, "február"));
         assertEquals(29, dayInMonth.getDayInMonth(2020, "Február"));
-        assertEquals(29, dayInMonth.getDayInMonth(2021, "február"));
-        assertEquals(29, dayInMonth.getDayInMonth(2021, "Február"));
+        assertEquals(28, dayInMonth.getDayInMonth(2021, "február"));
+        assertEquals(28, dayInMonth.getDayInMonth(2021, "Február"));
     }
 
 }
