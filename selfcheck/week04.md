@@ -7,9 +7,9 @@ fogtok tanulni a vezérlési szerkezetekről.
 
 * [X] [Unit tesztelés JUnit 4 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/10709855-unit-teszteles-junit-4-hasznalataval)
 * [X] [JUnit 5 videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/17606488-junit-5)
-* [ ] JUnit 5 gyakorlati feladat
-* [ ] [JUnit 5 assert metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177547-junit-5-assert-metodusok)
-* [ ] JUnit 5 assert metódusok gyakorlati feladat
+* [X] JUnit 5 gyakorlati feladat
+* [X] [JUnit 5 assert metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177547-junit-5-assert-metodusok)
+* [X] JUnit 5 assert metódusok gyakorlati feladat
 * [ ] [JUnit 5 tesztesetek életciklusa videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177579-junit-5-tesztesetek-eletciklusa)
 * [ ] JUnit 5 tesztesetek életciklusa gyakorlati feladat  
 
@@ -24,8 +24,8 @@ fogtok tanulni a vezérlési szerkezetekről.
 
 ## Konzultációk
 
-* [ ] 2021-11-02 konzultáció részvétel/videó
-* [ ] 2021-11-02 konzultáció gyakorlati feladat
+* [X] 2021-11-02 konzultáció részvétel/videó
+* [X] 2021-11-02 konzultáció gyakorlati feladat
 * [ ] 2021-11-03 konzultáció részvétel/videó
 * [ ] 2021-11-03 konzultáció gyakorlati feladat
 * [ ] 2021-11-04 konzultáció részvétel/videó
