@@ -16,5 +16,6 @@ class DayOfWeeksTest {
         assertEquals("majdnem hétvége", dayOfWeeks.orientDuringTheWeek("péntek  "));
         assertEquals("hét vége", dayOfWeeks.orientDuringTheWeek("  Szombat"));
         assertEquals("hét vége", dayOfWeeks.orientDuringTheWeek("vasárNap"));
+        assertEquals("ismeretlen nap", dayOfWeeks.orientDuringTheWeek("alma"));
     }
 }
