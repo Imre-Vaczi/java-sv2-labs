@@ -7,9 +7,13 @@ public class Exit {
         boolean flag = true;
         Scanner scanner = new Scanner(System.in);
         String input = "";
-        while (!input.equals("x")){
+/*        while (!input.equals("x")){
             System.out.println("Az ügyfélszolgálat menüje jelenleg nem elérhető. \nKilépés: x billentyű megnyomásával");
             input = scanner.nextLine();
-            }
-        }
+            }*/
+        do {
+            System.out.println("Az ügyfélszolgálat menüje jelenleg nem elérhető. \nKilépés: x billentyű megnyomásával");
+            input = scanner.nextLine();
+        }while (!input.equals("x"));
     }
+}
