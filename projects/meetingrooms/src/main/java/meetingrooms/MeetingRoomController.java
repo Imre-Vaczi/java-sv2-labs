@@ -27,52 +27,64 @@ public class MeetingRoomController {
         office.addMeetingRoom(new MeetingRoom(nameInp, lengthInp, widthInp));
     }
 
-    public void runMenu(){
+    public void runMenu() {
         printMenu();
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Kérem válasszon menüpontot!");
         scanner.nextLine();
-        int input = scanner.nextInt();
-        switch (input){
-            case 1:
-                readOffice();
-                break;
-            case 2:
-                office.printNames();
-                break;
-            case 3:
-                office.printNamesReverse();
-                break;
-            case 4:
-                office.printEvenNames();
-                break;
-            case 5:
-                office.printAreas();
-                break;
-            case 6:
-                System.out.println("Kérem adja meg a keresendő tárgyaló nevét!");
-                String nameSearch = scanner.nextLine();
-                office.printMeetingRoomsWithName(nameSearch);
-                break;
-            case 7:
-                System.out.println("Kérem adja meg a keresendő tárgyaló nevének töredékét!");
-                String namePart = scanner.nextLine();
-                office.printMeetingRoomsContain(namePart);
-                break;
-            case 8:
-                System.out.println("Kérem adja meg a minimum tárgyalóméretet");
-                int areaInp = scanner.nextInt();
-                office.printAreasLargerThan(areaInp);
-                break;
-            case 9:
-                break;
-            default:
-                runMenu();
+        boolean flag = true;
+        while (flag) {
+            int input = scanner.nextInt();
+            switch (input) {
+                case 1:
+                    readOffice();
+                    scanner.nextLine();
+                    break;
+                case 2:
+                    System.out.println(office.printNames());
+                    scanner.nextLine();
+                    break;
+                case 3:
+                    System.out.println(office.printNamesReverse());
+                    scanner.nextLine();
+                    break;
+                case 4:
+                    System.out.println(office.printEvenNames());
+                    scanner.nextLine();
+                    break;
+                case 5:
+                    System.out.println(office.printAreas());
+                    scanner.nextLine();
+                    break;
+                case 6:
+                    System.out.println("Kérem adja meg a keresendő tárgyaló nevét!");
+                    String nameSearch = scanner.nextLine();
+                    System.out.println(office.printMeetingRoomsWithName(nameSearch));
+                    scanner.nextLine();
+                    break;
+                case 7:
+                    System.out.println("Kérem adja meg a keresendő tárgyaló nevének töredékét!");
+                    String namePart = scanner.nextLine();
+                    System.out.println(office.printMeetingRoomsContain(namePart));
+                    scanner.nextLine();
+                    break;
+                case 8:
+                    System.out.println("Kérem adja meg a minimum tárgyalóméretet");
+                    int areaInp = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println(office.printAreasLargerThan(areaInp));
+                    scanner.nextLine();
+                    break;
+                case 9:
+                    flag = false;
+                    break;
+                default:
+                    runMenu();
+            }
         }
     }
 
     public static void main(String[] args) {
         MeetingRoomController mrc = new MeetingRoomController();
-        //mrc.printMenu();
+        mrc.runMenu();
     }
 }
