@@ -2,6 +2,7 @@ package meetingrooms;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Locale;
 
 public class Office {
 
@@ -39,6 +40,36 @@ public class Office {
         StringBuilder sb = new StringBuilder();
         for (MeetingRoom room : meetingRooms){
             sb.append(getRoomDetails(room) + "\n");
+        }
+        return sb.toString();
+    }
+
+    public String printMeetingRoomsWithName(String name){
+        StringBuilder sb = new StringBuilder();
+        for (MeetingRoom room : meetingRooms){
+            if (name.toLowerCase(Locale.ROOT).trim().equals(room.getName().toLowerCase(Locale.ROOT))) {
+                sb.append(getRoomDetails(room) + "\n");
+            }
+        }
+        return sb.toString();
+    }
+
+    public String printMeetingRoomsContain(String part){
+        StringBuilder sb = new StringBuilder();
+        for (MeetingRoom room : meetingRooms){
+            if (room.getName().toLowerCase(Locale.ROOT).contains(part.toLowerCase(Locale.ROOT).trim())){
+                sb.append(getRoomDetails(room));
+            }
+        }
+        return sb.toString();
+    }
+
+    public String printAreasLargerThan(int area){
+        StringBuilder sb = new StringBuilder();
+        for (MeetingRoom room : meetingRooms){
+            if (room.getArea() > area){
+                sb.append(getRoomDetails(room) + "\n");
+            }
         }
         return sb.toString();
     }
