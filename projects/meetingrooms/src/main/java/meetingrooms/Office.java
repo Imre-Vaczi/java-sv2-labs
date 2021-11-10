@@ -30,7 +30,7 @@ public class Office {
 
     public String printEvenNames(){
         StringBuilder sb = new StringBuilder();
-        for (int roomIndex = 0; roomIndex < meetingRooms.size(); roomIndex+=2){
+        for (int roomIndex = 1; roomIndex < meetingRooms.size(); roomIndex+=2){
             sb.append(meetingRooms.get(roomIndex).getName() + "\n");
         }
         return sb.toString();
@@ -75,6 +75,8 @@ public class Office {
     }
 
     private String getRoomDetails(MeetingRoom meetingRoom){
-        return meetingRoom.getName() + ": " + meetingRoom.getLength()+"m * "+meetingRoom.getWidth()+"m = "+meetingRoom.getArea()+" m^2";
+        StringBuilder sb = new StringBuilder();
+        sb.append(meetingRoom.getName() + ": " + meetingRoom.getLength()+" m * "+meetingRoom.getWidth()+" m = "+meetingRoom.getArea()+" m^2");
+        return sb.toString();
     }
 }
