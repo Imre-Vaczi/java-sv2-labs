@@ -19,7 +19,7 @@ public class MeetingRoomController {
 
     public void readOffice(){
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Kérem adja meg az új tárgyaló nevét, hosszát, majd szélességét!");
+        System.out.println("Kérem külön sorokban adja meg az új tárgyaló nevét, hosszát, majd szélességét!");
         String nameInp = scanner.nextLine();
         int lengthInp = scanner.nextInt();
         int widthInp = scanner.nextInt();
@@ -69,22 +69,27 @@ public class MeetingRoomController {
         readOffice();
         runMenu();
     }
+
     private void caseTwo(){
         System.out.println(office.printNames());
         runMenu();
     }
+
     private void caseThree(){
         System.out.println(office.printNamesReverse());
         runMenu();
     }
+
     private void caseFour(){
         System.out.println(office.printEvenNames());
         runMenu();
     }
+
     private void caseFive(){
         System.out.println(office.printAreas());
         runMenu();
     }
+
     private void caseSix(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kérem adja meg a keresendő tárgyaló nevét!");
@@ -92,6 +97,7 @@ public class MeetingRoomController {
         System.out.println(office.printMeetingRoomsWithName(nameSearch));
         runMenu();
     }
+
     private void caseSeven(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kérem adja meg a keresendő tárgyaló nevének töredékét!");
@@ -99,6 +105,7 @@ public class MeetingRoomController {
         System.out.println(office.printMeetingRoomsContain(namePart));
         runMenu();
     }
+
     private void caseEight(){
         Scanner scanner = new Scanner(System.in);
         System.out.println("Kérem adja meg a kereséshez a terület alsó korlátját!");
@@ -107,7 +114,6 @@ public class MeetingRoomController {
         System.out.println(office.printAreasLargerThan(areaInp));
         runMenu();
     }
-
 
     public static void main(String[] args) {
         MeetingRoomController mrc = new MeetingRoomController();
