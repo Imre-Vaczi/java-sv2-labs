@@ -114,9 +114,4 @@ public class MeetingRoomController {
         System.out.println(office.printAreasLargerThan(areaInp));
         runMenu();
     }
-
-    public static void main(String[] args) {
-        MeetingRoomController mrc = new MeetingRoomController();
-        mrc.runMenu();
-    }
 }
