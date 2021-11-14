@@ -8,7 +8,7 @@ public class Jackpot {
             System.out.println(result);
         }
         catch (NullPointerException exception){
-            System.out.println("Listában null szerepelt, az nem nyerhet.");
+            System.out.println("A listában null szerepelt, az nem nyerhet.");
         }
     }
 }
