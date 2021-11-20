@@ -14,13 +14,13 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [X] Kivétel kezelése gyakorlati feladat
 * [X] [Kivétel kezelése a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177746-kivetel-kezelese-a-hivasi-lancban)
 * [X] Kivétel kezelése a hívási láncban gyakorlati feladat
-* [ ] [Kivétel eldobása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177790-kivetel-eldobasa)
-* [ ] Kivétel eldobása gyakorlati feladat
-* [ ] [Kivételkezelés tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177887-kivetelkezeles-tesztelese-junit-5-hasznalataval)
-* [ ] Kivételkezelés tesztelése JUnit 5 használatával gyakorlati feladat
-* [ ] [Fájl beolvasása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177973-fajl-beolvasasa)
-* [ ] Fájl beolvasása gyakorlati feladat
-* [ ] [Kötelezően kezelendő kivétel a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177984-kotelezoen-kezelendo-kivetel-a-hivasi-lancban)
+* [X] [Kivétel eldobása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177790-kivetel-eldobasa)
+* [X] Kivétel eldobása gyakorlati feladat
+* [X] [Kivételkezelés tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177887-kivetelkezeles-tesztelese-junit-5-hasznalataval)
+* [X] Kivételkezelés tesztelése JUnit 5 használatával gyakorlati feladat
+* [X] [Fájl beolvasása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177973-fajl-beolvasasa)
+* [X] Fájl beolvasása gyakorlati feladat
+* [X] [Kötelezően kezelendő kivétel a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177984-kotelezoen-kezelendo-kivetel-a-hivasi-lancban)
 * [ ] Kötelezően kezelendő kivétel a hívási láncban gyakorlati feladat
 * [ ] [Kivétel becsomagolása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178010-kivetel-becsomagolasa)
 * [ ] Kivétel becsomagolása gyakorlati feladat
