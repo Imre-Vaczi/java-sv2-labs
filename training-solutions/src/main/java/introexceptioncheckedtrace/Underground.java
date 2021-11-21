@@ -8,7 +8,7 @@ public class Underground {
         Operations operations = new Operations();
 
         try {
-            result = operations.getDailySchedule(operations.readFile("underground.txt"));
+            result = operations.getDailySchedule(operations.readFile("src/test/resources/underground.txt"));
         }
         catch (IOException exception){
             System.out.println(exception.getMessage());

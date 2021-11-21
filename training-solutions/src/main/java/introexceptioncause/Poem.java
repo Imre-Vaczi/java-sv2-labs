@@ -27,7 +27,7 @@ public class Poem {
     public static void main(String[] args) {
         Poem poem = new Poem();
         try {
-            String result = poem.printFirstLetters(poem.readPoem("poem.txt"));
+            String result = poem.printFirstLetters(poem.readPoem("src/test/resources/poem.txt"));
             System.out.println(result);
         }
         catch (IllegalStateException ise){

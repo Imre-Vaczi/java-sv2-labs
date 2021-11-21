@@ -14,7 +14,7 @@ public class Neptun {
         Neptun neptun = new Neptun();
 
         try {
-            content = neptun.readContent("neptun.csv");
+            content = neptun.readContent("src/test/resources/neptun.csv");
         }
         catch (IOException ioException) {
             System.out.println("Tartalom beolvasása hibára futott.");

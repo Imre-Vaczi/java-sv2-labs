@@ -33,7 +33,7 @@ public class PaulStreetBoys {
     public static void main(String[] args) {
         PaulStreetBoys paulStreetBoys = new PaulStreetBoys();
         try {
-            System.out.println(paulStreetBoys.modifyContent(paulStreetBoys.readContent("palutcaifiuk.txt")));
+            System.out.println(paulStreetBoys.modifyContent(paulStreetBoys.readContent("src/test/resources/palutcaifiuk.txt")));
         }
         catch (IllegalStateException ise) {
             ise.getCause().printStackTrace();

@@ -9,7 +9,7 @@ public class Tracking {
         List<Integer> elevationDifferences = new ArrayList<>();
 
         try {
-            elevationDifferences = trackPoints.calculateElevDiff(trackPoints.readElevation(trackPoints.readFile("tracking.csv")));
+            elevationDifferences = trackPoints.calculateElevDiff(trackPoints.readElevation(trackPoints.readFile("src/test/resources/tracking.csv")));
         }
         catch (IllegalStateException ise){
             ise.printStackTrace();
