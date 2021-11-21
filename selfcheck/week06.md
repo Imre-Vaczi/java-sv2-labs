@@ -21,25 +21,25 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [X] [Fájl beolvasása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177973-fajl-beolvasasa)
 * [X] Fájl beolvasása gyakorlati feladat
 * [X] [Kötelezően kezelendő kivétel a hívási láncban videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28177984-kotelezoen-kezelendo-kivetel-a-hivasi-lancban)
-* [ ] Kötelezően kezelendő kivétel a hívási láncban gyakorlati feladat
-* [ ] [Kivétel becsomagolása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178010-kivetel-becsomagolasa)
-* [ ] Kivétel becsomagolása gyakorlati feladat
-* [ ] [Fájlbeolvasás tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178029-fajlbeolvasas-tesztelese-junit-5-hasznalataval)
-* [ ] Fájlbeolvasás tesztelése JUnit 5 használatával gyakorlati feladat
-* [ ] [Fájl írása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178041-fajl-irasa)
-* [ ] Fájl írása gyakorlati feladat
-* [ ] [Fájl írásának tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178063-fajl-irasanak-tesztelese-junit-5-hasznalataval)
-* [ ] Fájl írásának tesztelése JUnit 5 használatával gyakorlati feladat
+* [X] Kötelezően kezelendő kivétel a hívási láncban gyakorlati feladat
+* [X] [Kivétel becsomagolása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178010-kivetel-becsomagolasa)
+* [X] Kivétel becsomagolása gyakorlati feladat
+* [X] [Fájlbeolvasás tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178029-fajlbeolvasas-tesztelese-junit-5-hasznalataval)
+* [X] Fájlbeolvasás tesztelése JUnit 5 használatával gyakorlati feladat
+* [X] [Fájl írása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178041-fajl-irasa)
+* [X] Fájl írása gyakorlati feladat
+* [X] [Fájl írásának tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178063-fajl-irasanak-tesztelese-junit-5-hasznalataval)
+* [X] Fájl írásának tesztelése JUnit 5 használatával gyakorlati feladat
 * [ ] [A finally ág videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178086-a-finally-ag)
 * [ ] A finally ág gyakorlati feladat
 
 ## Konzultációk
 
-* [ ] 2021-11-15 konzultáció részvétel/videó
-* [ ] 2021-11-15 konzultáció gyakorlati feladat
-* [ ] 2021-11-16 konzultáció részvétel/videó
-* [ ] 2021-11-16 konzultáció gyakorlati feladat
-* [ ] 2021-11-18 konzultáció részvétel/videó
+* [X] 2021-11-15 konzultáció részvétel/videó
+* [X] 2021-11-15 konzultáció gyakorlati feladat
+* [X] 2021-11-16 konzultáció részvétel/videó
+* [X] 2021-11-16 konzultáció gyakorlati feladat
+* [X] 2021-11-18 konzultáció részvétel/videó
 * [ ] 2021-11-18 konzultáció gyakorlati feladat
-* [ ] 2021-11-19 konzultáció részvétel/videó
+* [X] 2021-11-19 konzultáció részvétel/videó
 * [ ] 2021-11-19 konzultáció gyakorlati feladat
