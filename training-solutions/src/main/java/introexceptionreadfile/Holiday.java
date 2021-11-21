@@ -9,7 +9,7 @@ public class Holiday {
 
     public static void main(String[] args) {
         try {
-            List<String> content = Files.readAllLines(Paths.get("holiday.txt"));
+            List<String> content = Files.readAllLines(Paths.get("src/test/resources/holiday.txt"));
             System.out.println(content);
         }
         catch (IOException ioException) {

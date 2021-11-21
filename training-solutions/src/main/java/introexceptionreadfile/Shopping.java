@@ -9,7 +9,7 @@ public class Shopping {
 
     public static void main(String[] args) {
         try {
-            List<String> grocery = Files.readAllLines(Paths.get("shoppinglist.txt"));
+            List<String> grocery = Files.readAllLines(Paths.get("src/test/resources/shoppinglist.txt"));
             System.out.println(grocery);
         }
         catch (IOException ioException) {
