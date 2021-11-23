@@ -30,8 +30,8 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [X] Fájl írása gyakorlati feladat
 * [X] [Fájl írásának tesztelése JUnit 5 használatával videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178063-fajl-irasanak-tesztelese-junit-5-hasznalataval)
 * [X] Fájl írásának tesztelése JUnit 5 használatával gyakorlati feladat
-* [ ] [A finally ág videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178086-a-finally-ag)
-* [ ] A finally ág gyakorlati feladat
+* [X] [A finally ág videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/28178086-a-finally-ag)
+* [X] A finally ág gyakorlati feladat
 
 ## Konzultációk
 
@@ -40,6 +40,6 @@ Ezen a héten a kivétel- és fájlkezelést fogjátok alapszinten megismerni.
 * [X] 2021-11-16 konzultáció részvétel/videó
 * [X] 2021-11-16 konzultáció gyakorlati feladat
 * [X] 2021-11-18 konzultáció részvétel/videó
-* [ ] 2021-11-18 konzultáció gyakorlati feladat
+* [X] 2021-11-18 konzultáció gyakorlati feladat
 * [X] 2021-11-19 konzultáció részvétel/videó
-* [ ] 2021-11-19 konzultáció gyakorlati feladat
+* [X] 2021-11-19 konzultáció gyakorlati feladat
