@@ -12,8 +12,7 @@ public class Vowels {
         }
 
         if (listOfVowels.contains(word.charAt(0))) {
-            int result = 1 + getNumberOfVowels(word.substring(1, word.length()));
-            return result;
+            return 1 + getNumberOfVowels(word.substring(1, word.length()));
         } else {
             return getNumberOfVowels(word.substring(1, word.length()));
         }
