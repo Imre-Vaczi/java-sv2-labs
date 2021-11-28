@@ -7,9 +7,13 @@ public class HeadQuarter {
 
     private List<Trooper> troopers = new ArrayList<>();
 
-    public HeadQuarter(List<Trooper> troopers) {
-        this.troopers = troopers;
+    public List<Trooper> getTroopers() {
+        return troopers;
     }
+
+/*    public HeadQuarter(List<Trooper> troopers) {
+        this.troopers = troopers;
+    }*/
 
     public void addTrooper(Trooper trooper) {
         if (trooper == null) {
@@ -27,6 +31,10 @@ public class HeadQuarter {
 
     private void moveTrooper(Trooper trooper, Position target) {
         trooper.changePosition(target);
+    }
+
+    public void moveTrooperByName(String name, Position position) {
+        moveTrooper(findTrooperByName(name),position);
     }
 
     private Trooper findClosestTrooper(Position target) {
