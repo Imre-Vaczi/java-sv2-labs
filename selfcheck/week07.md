@@ -33,11 +33,11 @@ Ezen a héten nagyrészt ismétlés következik, néhány újabb ismerettel: a p
 * [X] [Metódus paraméterek és visszatérési értékek videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525904-metodus-parameterek-es-visszateresi-ertekek)
 * [X] Metódus paraméterek és visszatérési értékek gyakorlati feladat
 * [X] [Változó hosszúságú paraméterlista videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525916-valtozo-hosszusagu-parameterlista)
-* [ ] Változó hosszúságú paraméterlista gyakorlati feladat
+* [X] Változó hosszúságú paraméterlista gyakorlati feladat
 * [X] [Metódus hívások láncolása videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525922-metodus-hivasok-lancolasa)
-* [ ] Metódus hívások láncolása gyakorlati feladat
+* [X] Metódus hívások láncolása gyakorlati feladat
 * [X] [Metódusnév túlterhelés videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525928-metodusnev-tulterheles)
-* [ ] Metódusnév túlterhelés gyakorlati feladat
+* [x] Metódusnév túlterhelés gyakorlati feladat
 * [X] [Statikus attribútumok és metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525936-statikus-attributumok-es-metodusok)
 * [ ] Statikus attribútumok és metódusok gyakorlati feladat
   
