@@ -39,15 +39,15 @@ Ezen a héten nagyrészt ismétlés következik, néhány újabb ismerettel: a p
 * [X] [Metódusnév túlterhelés videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525928-metodusnev-tulterheles)
 * [x] Metódusnév túlterhelés gyakorlati feladat
 * [X] [Statikus attribútumok és metódusok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525936-statikus-attributumok-es-metodusok)
-* [ ] Statikus attribútumok és metódusok gyakorlati feladat
+* [X] Statikus attribútumok és metódusok gyakorlati feladat
   
 ## Konstruktorok és inicializátorok
 
-* [ ] [Default és paraméter nélküli konstruktor videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525983-default-es-parameter-nelkuli-konstruktor)
-* [ ] Default és paraméter nélküli konstruktor gyakorlati feladat
-* [ ] [Konstruktor túlterhelés videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525990-konstruktor-tulterheles)
+* [X] [Default és paraméter nélküli konstruktor videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525983-default-es-parameter-nelkuli-konstruktor)
+* [X] Default és paraméter nélküli konstruktor gyakorlati feladat
+* [X] [Konstruktor túlterhelés videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525990-konstruktor-tulterheles)
 * [ ] Konstruktor túlterhelés gyakorlati feladat
-* [ ] [Inicializátorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525995-inicializatorok)
+* [X] [Inicializátorok videó](https://e-learning.training360.com/courses/take/java-se-alapok-java-nyelvi-elemek/lessons/29525995-inicializatorok)
 * [ ] Inicializátorok gyakorlati feladat
 
 ## Konzultációk
