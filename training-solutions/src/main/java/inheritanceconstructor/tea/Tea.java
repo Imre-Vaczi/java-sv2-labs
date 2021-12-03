@@ -1,4 +1,4 @@
-package inheritanceconstructor.animal.inheritanceconstructor.tea;
+package inheritanceconstructor.tea;
 
 public class Tea {
 

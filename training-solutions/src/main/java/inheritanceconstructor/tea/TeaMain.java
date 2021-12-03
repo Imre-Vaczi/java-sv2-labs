@@ -1,4 +1,7 @@
-package inheritanceconstructor.animal.inheritanceconstructor.tea;
+package inheritanceconstructor.tea;
+
+import inheritanceconstructor.tea.HerbalTea;
+import inheritanceconstructor.tea.Tea;
 
 public class TeaMain {
 
