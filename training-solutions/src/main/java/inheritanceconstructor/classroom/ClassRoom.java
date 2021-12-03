@@ -10,7 +10,7 @@ public class ClassRoom extends Room{
     }
 
     public boolean isSuitable(Course course) {
-        return course.getFacilityNeeded().equals(facility) && course.getParticipants() <= this.getCapacity();
+        return course.getFacilityNeeded().equals(facility) && (course.getParticipants() <= this.getCapacity());
     }
 
     public void setFacility(Facility facility) {
