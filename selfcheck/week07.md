@@ -59,4 +59,4 @@ Ezen a héten nagyrészt ismétlés következik, néhány újabb ismerettel: a p
 * [X] 2021-11-25 konzultáció részvétel/videó
 * [X] 2021-11-25 konzultáció gyakorlati feladat
 * [X] 2021-11-26 konzultáció részvétel/videó
-* [ ] 2021-11-26 konzultáció gyakorlati feladat
+* [X] 2021-11-26 konzultáció gyakorlati feladat
