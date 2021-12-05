@@ -31,5 +31,5 @@ fogtok megismerkedni.
 * [X] 2021-11-30 konzultáció gyakorlati feladat
 * [X] 2021-12-02 konzultáció részvétel/videó
 * [X] 2021-12-02 konzultáció gyakorlati feladat
-* [X] 2021-12-03 konzultáció részvétel/videó
+* [ ] 2021-12-03 konzultáció részvétel/videó
 * [ ] 2021-12-03 konzultáció gyakorlati feladat
