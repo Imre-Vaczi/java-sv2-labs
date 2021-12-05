@@ -32,4 +32,4 @@ fogtok megismerkedni.
 * [X] 2021-12-02 konzultáció részvétel/videó
 * [X] 2021-12-02 konzultáció gyakorlati feladat
 * [X] 2021-12-03 konzultáció részvétel/videó
-* [X] 2021-12-03 konzultáció gyakorlati feladat
+* [ ] 2021-12-03 konzultáció gyakorlati feladat
