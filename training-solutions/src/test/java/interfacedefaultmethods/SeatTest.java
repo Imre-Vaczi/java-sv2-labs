@@ -1,5 +1,8 @@
 package interfacedefaultmethods;
 
+import interfacedefaultmethods.seats.Car;
+import interfacedefaultmethods.seats.FamilyCar;
+import interfacedefaultmethods.seats.SportsCar;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

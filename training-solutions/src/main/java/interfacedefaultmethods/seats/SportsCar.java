@@ -1,4 +1,4 @@
-package interfacedefaultmethods;
+package interfacedefaultmethods.seats;
 
 public class SportsCar implements Seat{
     @Override
