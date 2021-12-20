@@ -20,6 +20,17 @@ class LongWordTest {
     }
 
     @Test
+    void testReadFromFileInvalidPath() {
+        Path path = Paths.get("src/test/resources/_____.txt");
+        LongWord longWord = new LongWord(path);
+
+        Exception exception = assertThrows(IllegalStateException.class,
+                ()-> longWord.readFromFile(longWord.getPath()));
+        assertEquals("File can not be read", exception.getMessage());
+
+    }
+
+    @Test
     void testGetLongWord() {
         Path path = Paths.get("src/test/resources/longword.txt");
         LongWord longWord = new LongWord(path);
