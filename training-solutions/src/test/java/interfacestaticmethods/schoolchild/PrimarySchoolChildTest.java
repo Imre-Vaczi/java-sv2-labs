@@ -15,6 +15,9 @@ class PrimarySchoolChildTest {
         PrimarySchoolChild primarySchoolChildUpper = PrimarySchoolChild.of(10);
         assertTrue(((LowerClassSchoolChild)primarySchoolChildUpper).getAge()<11);
         assertTrue(((LowerClassSchoolChild)primarySchoolChildUpper).getAge()>5);
+
+        assertEquals(LowerClassSchoolChild.class, primarySchoolChild.getClass());
+        assertEquals(LowerClassSchoolChild.class, primarySchoolChildUpper.getClass());
     }
 
     @Test
@@ -26,6 +29,9 @@ class PrimarySchoolChildTest {
         PrimarySchoolChild primarySchoolChildUpper = PrimarySchoolChild.of(14);
         assertTrue(((UpperClassSchoolChild)primarySchoolChildUpper).getAge()<15);
         assertTrue(((UpperClassSchoolChild)primarySchoolChildUpper).getAge()>10);
+
+        assertEquals(UpperClassSchoolChild.class, primarySchoolChild.getClass());
+        assertEquals(UpperClassSchoolChild.class, primarySchoolChildUpper.getClass());
     }
 
     @Test
@@ -41,5 +47,4 @@ class PrimarySchoolChildTest {
                 ()-> PrimarySchoolChild.of(15));
         assertEquals("Age must be between 6 and 14", exception.getMessage());
     }
-
 }
