@@ -11,13 +11,15 @@ public class CanCarryPassengersBehaviour implements CanCarryPassengers{
 
     @Override
     public int loadPassenger(int passengerWeight) {
-        if (passengerWeight > maxPassenger) {
-            this.passenger = maxPassenger;
-            return passengerWeight - maxPassenger;
+        int remainder = 0;
+
+        if (passenger <= maxPassenger) {
+            this.passenger = passenger;
         } else {
-            this.passenger = passengerWeight;
-            return 0;
+            remainder = passenger - maxPassenger;
+            this.passenger = maxPassenger;
         }
+        return remainder;
     }
 
     @Override

@@ -11,13 +11,14 @@ public class CanCarryGoodsBehaviour implements CanCarryGoods{
 
     @Override
     public int loadCargo(int cargoWeight) {
-        if (cargoWeight > this.maxWeight) {
-            this.cargoWeight = maxWeight;
-            return cargoWeight - maxWeight;
-        } else {
+        int remainder = 0;
+        if (cargoWeight <= maxWeight) {
             this.cargoWeight = cargoWeight;
-            return 0;
+        } else {
+            remainder = cargoWeight - maxWeight;
+            this.cargoWeight = maxWeight;
         }
+        return remainder;
     }
 
     @Override

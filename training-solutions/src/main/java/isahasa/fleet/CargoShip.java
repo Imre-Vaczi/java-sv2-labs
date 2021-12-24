@@ -1,6 +1,6 @@
 package isahasa.fleet;
 
-public class CargoShip implements CanCarryGoods{
+public class CargoShip implements CanCarryGoods, Ship{
 
     private final CanCarryGoods canCarryGoods;
 
