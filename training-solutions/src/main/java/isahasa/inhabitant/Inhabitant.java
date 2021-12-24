@@ -14,6 +14,6 @@ public class Inhabitant extends Person{
     }
 
     public void changeParkingPlace(int newParkingPlace) {
-        this.parkingPlace.setNumber(newParkingPlace);
+        this.parkingPlace = new ParkingPlace(newParkingPlace);
     }
 }
