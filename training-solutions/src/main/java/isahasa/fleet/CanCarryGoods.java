@@ -2,7 +2,7 @@ package isahasa.fleet;
 
 public interface CanCarryGoods {
 
-    public int loadCargo(int cargoWeight);
-    public int getCargo();
+    int loadCargo(int cargoWeight);
 
+    int getCargoWeight();
 }

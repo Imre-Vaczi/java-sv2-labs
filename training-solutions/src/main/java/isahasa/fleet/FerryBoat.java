@@ -1,13 +1,13 @@
 package isahasa.fleet;
 
-public class FerryBoat implements Ship, CanCarryGoods, CanCarryPassengers{
+public class FerryBoat implements CanCarryGoods, CanCarryPassengers, Ship {
 
-    private final CanCarryPassengers canCarryPassengers;
     private final CanCarryGoods canCarryGoods;
+    private final CanCarryPassengers canCarryPassengers;
 
-    public FerryBoat(int maxCargoWeight, int maxPassengerWeight) {
-        this.canCarryGoods = new CanCarryGoodsBehaviour(maxCargoWeight);
-        this.canCarryPassengers = new CanCarryPassengersBehaviour(maxPassengerWeight);
+    public FerryBoat(int maxCargoWeight, int maxPassengers) {
+        canCarryGoods = new CanCarryGoodsBehaviour(maxCargoWeight);
+        canCarryPassengers = new CanCarryPassengersBehaviour(maxPassengers);
     }
 
     @Override
@@ -16,17 +16,17 @@ public class FerryBoat implements Ship, CanCarryGoods, CanCarryPassengers{
     }
 
     @Override
-    public int getCargo() {
-        return canCarryGoods.getCargo();
+    public int getCargoWeight() {
+        return canCarryGoods.getCargoWeight();
     }
 
     @Override
-    public int loadPassenger(int passengerWeight) {
-        return canCarryPassengers.loadPassenger(passengerWeight);
+    public int getPassengers() {
+        return canCarryPassengers.getPassengers();
     }
 
     @Override
-    public int getPassenger() {
-        return canCarryPassengers.getPassenger();
+    public int loadPassenger(int passengers) {
+        return canCarryPassengers.loadPassenger(passengers);
     }
 }

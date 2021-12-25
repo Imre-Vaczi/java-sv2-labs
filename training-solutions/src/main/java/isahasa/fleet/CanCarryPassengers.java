@@ -2,6 +2,7 @@ package isahasa.fleet;
 
 public interface CanCarryPassengers {
 
-    public int loadPassenger(int passengerWeight);
-    public int getPassenger();
+    int loadPassenger(int passengers);
+
+    int getPassengers();
 }
