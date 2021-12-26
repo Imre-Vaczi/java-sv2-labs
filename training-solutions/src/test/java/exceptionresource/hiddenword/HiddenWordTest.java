@@ -18,4 +18,14 @@ class HiddenWordTest {
         assertEquals("ALMA KÖRTE", result);
     }
 
+    @Test
+    void testGetHiddenWordInvalidPath() {
+        Path path = Paths.get("src/test/resources/hiddenword_INVALID.txt");
+        HiddenWord hiddenWord = new HiddenWord();
+        Exception exception = assertThrows(IllegalStateException.class,
+                ()-> hiddenWord.getHiddenWord(path));
+
+        assertEquals("File can not be read", exception.getMessage());
+    }
+
 }
