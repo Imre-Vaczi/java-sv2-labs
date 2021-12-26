@@ -15,7 +15,6 @@ class BankTest {
                 new Account("111-333", 1500),
                 new Account("111-444", 3000)
         ));
-
         assertEquals(3, bank.getAccounts().size());
     }
 
