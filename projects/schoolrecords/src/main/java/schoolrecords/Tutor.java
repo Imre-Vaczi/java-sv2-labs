@@ -17,10 +17,6 @@ public class Tutor {
         return name;
     }
 
-    public List<Subject> getSubjects() {
-        return subjects;
-    }
-
     public boolean tutorTeachingSubject(Subject subject) {
         for (Subject course : subjects) {
             if (course.getSubjectName().equals(subject.getSubjectName())) {
