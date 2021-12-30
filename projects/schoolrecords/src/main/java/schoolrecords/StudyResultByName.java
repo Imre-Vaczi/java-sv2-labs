@@ -2,23 +2,23 @@ package schoolrecords;
 
 public class StudyResultByName {
 
-    private String name;
-    private double average;
+    private String studentName;
+    private double studyAverage;
 
-    public StudyResultByName(String name, double average) {
-        if (isEmpty(name)) {
+    public StudyResultByName(String studentName, double studyAverage) {
+        if (isEmpty(studentName)) {
             throw new IllegalArgumentException("String can not be empty!");
         }
-        this.name = name;
-        this.average = average;
+        this.studentName = studentName;
+        this.studyAverage = studyAverage;
     }
 
-    public String getName() {
-        return name;
+    public String getStudentName() {
+        return studentName;
     }
 
-    public double getAverage() {
-        return average;
+    public double getStudyAverage() {
+        return studyAverage;
     }
 
     private boolean isEmpty(String str) {

@@ -1,7 +1,5 @@
 package schoolrecords;
 
-import java.util.Arrays;
-
 public class Mark {
 
     private MarkType markType;
