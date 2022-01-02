@@ -116,6 +116,9 @@ public class ClassRecords {
     }
 
     public String listStudentNames() {
+        if (students.size() == 0) {
+            throw new IllegalStateException("");
+        }
         StringBuilder sb = new StringBuilder();
         for (Student pupil : students) {
             sb.append(pupil.getName()).append(", ");
