@@ -65,4 +65,4 @@ a típusokról, az operátorokról, valamint a szöveges típusról.
 * [X] 2021-10-28 konzultáció részvétel/videó
 * [X] 2021-10-28 konzultáció gyakorlati feladat
 * [X] 2021-10-29 konzultáció részvétel/videó
-* [ ] 2021-10-29 konzultáció gyakorlati feladat
+* [X] 2021-10-29 konzultáció gyakorlati feladat
