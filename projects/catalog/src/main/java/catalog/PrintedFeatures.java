@@ -2,6 +2,8 @@ package catalog;
 
 import java.util.ArrayList;
 import java.util.List;
+import static catalog.Validators.isBlank;
+import static catalog.Validators.isEmpty;
 
 public class PrintedFeatures implements Feature{
 
@@ -10,7 +12,7 @@ public class PrintedFeatures implements Feature{
     private List<String> contributors = new ArrayList<>();
 
     public PrintedFeatures(String title, int numberOfPages, List<String> contributors) {
-        if (isLengthInvalid(numberOfPages) | isTitleInvalid(title) | isListInvalid(contributors)) {
+        if (isLengthInvalid(numberOfPages) | isBlank(title) | isEmpty(contributors)) {
             throw new IllegalArgumentException("Empty title");
         }
         this.title = title;
@@ -31,15 +33,8 @@ public class PrintedFeatures implements Feature{
         return contributors;
     }
 
-    private boolean isTitleInvalid(String title) {
-        return ("" == title) | (title == null);
-    }
-
     private boolean isLengthInvalid(int length) {
         return length <= 0;
     }
 
-    private boolean isListInvalid(List<String> input) {
-        return (input == null);
-    }
 }

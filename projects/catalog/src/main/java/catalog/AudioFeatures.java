@@ -5,6 +5,8 @@ import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
+import static catalog.Validators.isBlank;
+import static catalog.Validators.isEmpty;
 
 public class AudioFeatures implements Feature{
 
@@ -14,7 +16,7 @@ public class AudioFeatures implements Feature{
     private List<String> composer = new ArrayList<>();
 
     public AudioFeatures(String title, int length, List<String> performers, List<String> composer) {
-        if (isLengthInvalid(length) | isTitleInvalid(title) | isListInvalid(performers) | isListInvalid(composer)) {
+        if (isLengthInvalid(length) | isBlank(title) | isEmpty(performers) | isEmpty(composer)) {
             throw new IllegalArgumentException();
         }
         this.title = title;
@@ -24,7 +26,7 @@ public class AudioFeatures implements Feature{
     }
 
     public AudioFeatures(String title, int length, List<String> performers) {
-        if (isLengthInvalid(length) | isTitleInvalid(title) | isListInvalid(performers)) {
+        if (isLengthInvalid(length) | isBlank(title) | isEmpty(performers)) {
             throw new IllegalArgumentException();
         }
         this.title = title;
@@ -56,15 +58,8 @@ public class AudioFeatures implements Feature{
         return performers;
     }
 
-    private boolean isTitleInvalid(String title) {
-        return (title.equals("")) | (title == null);
-    }
-
     private boolean isLengthInvalid(int length) {
         return length <= 0;
     }
 
-    private boolean isListInvalid(List<String> input) {
-        return (input.size() == 0) | (input == null);
-    }
 }

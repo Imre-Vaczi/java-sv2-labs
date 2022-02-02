@@ -14,7 +14,7 @@ public class Validators {
         }
     }
 
-    public static boolean isEmpty(List<Object> data) {
+    public static boolean isEmpty(List data) {
         return (data == null || data.size() == 0);
     }
 }

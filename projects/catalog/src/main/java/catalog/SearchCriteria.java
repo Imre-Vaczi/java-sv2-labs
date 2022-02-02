@@ -1,5 +1,8 @@
 package catalog;
 
+import static catalog.Validators.isBlank;
+import static catalog.Validators.isEmpty;
+
 public class SearchCriteria {
 
     private String contributor;
@@ -11,20 +14,20 @@ public class SearchCriteria {
     }
 
     public static SearchCriteria createByBoth(String title, String contributor) {
-        if (contributor == null | title == null) {
+        if (isBlank(contributor) | isBlank(title)) {
             throw new IllegalArgumentException("nono");
         }
         return new SearchCriteria(contributor, title);
     }
 
     public static SearchCriteria createByTitle(String title) {
-        if (title == null) {
+        if (isBlank(title)) {
             throw new IllegalArgumentException("nono");
         }
         return new SearchCriteria(null, title);
     }
     public static SearchCriteria createByContributor(String contributor) {
-        if (contributor == null) {
+        if (isBlank(contributor)) {
             throw new IllegalArgumentException("nono");
         }
         return new SearchCriteria(contributor, null);
@@ -39,10 +42,11 @@ public class SearchCriteria {
     }
 
     public boolean hasTitle() {
-        return getTitle() != null;
+        //return getTitle() != null;
+        return !isBlank(getTitle());
     }
 
     public boolean hasContributor() {
-        return getContributor() != null;
+        return !isBlank(getContributor());
     }
 }

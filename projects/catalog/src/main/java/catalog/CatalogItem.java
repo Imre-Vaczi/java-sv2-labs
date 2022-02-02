@@ -18,13 +18,6 @@ public class CatalogItem implements Feature{
     }
 
     public int numberOfPagesAtOneItem() {
-        /*int numOfPagesSum = 0;
-        for (Feature feature : features) {
-            if (feature instanceof PrintedFeatures) {
-                numOfPagesSum += ((PrintedFeatures) feature).getNumberOfPages();
-            }
-        }
-        return numOfPagesSum;*/
         return features.stream()
                 .filter(f -> f instanceof PrintedFeatures)
                 .mapToInt(f -> ((PrintedFeatures) f).getNumberOfPages())
