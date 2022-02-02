@@ -7,7 +7,7 @@ import java.util.List;
 public class Validators {
 
     public static boolean isBlank(String text) {
-        if ("".equals(text) | text == null) {
+        if (text == null || "".equals(text)) {
             return true;
         } else {
             return Arrays.stream(text.split("")).toList().stream().allMatch(c -> c.equals(" "));
