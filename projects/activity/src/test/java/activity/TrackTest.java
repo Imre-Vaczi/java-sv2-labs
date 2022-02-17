@@ -77,5 +77,24 @@ public class TrackTest {
         track.addTrackPoint(new TrackPoint(new Coordinate(3.67, -42.789), 200));
 
         assertEquals(2318.4118, track.getRectangleArea());
+/*        TrackPoint first = new TrackPoint(new Coordinate(12.5, 34.89), 123);
+        TrackPoint sec = new TrackPoint(new Coordinate(-12.5, 45.7), 124);
+        TrackPoint thir = new TrackPoint(new Coordinate(13.7, -6.0), 0);
+        TrackPoint fort = new TrackPoint(new Coordinate(3.67, -42.789), 200);
+        System.out.println(first.getDistanceFrom(sec));
+        System.out.println(first.getDistanceFrom(thir));
+        System.out.println(first.getDistanceFrom(fort));
+        System.out.println("");
+        System.out.println(sec.getDistanceFrom(first));
+        System.out.println(sec.getDistanceFrom(thir));
+        System.out.println(sec.getDistanceFrom(fort));
+        System.out.println("");
+        System.out.println(thir.getDistanceFrom(first));
+        System.out.println(thir.getDistanceFrom(sec));
+        System.out.println(thir.getDistanceFrom(fort));
+        System.out.println("");
+        System.out.println(fort.getDistanceFrom(first));
+        System.out.println(fort.getDistanceFrom(sec));
+        System.out.println(fort.getDistanceFrom(thir));*/
     }
 }

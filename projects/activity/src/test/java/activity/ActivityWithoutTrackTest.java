@@ -19,5 +19,4 @@ public class ActivityWithoutTrackTest {
         assertEquals(ActivityType.BASKETBALL, activityWithoutTrack.getType());
     }
 
-
 }

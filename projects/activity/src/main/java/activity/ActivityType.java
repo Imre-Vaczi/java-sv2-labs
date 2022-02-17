@@ -1,2 +1,6 @@
-package activity;public enum ActivityType {
+package activity;
+
+public enum ActivityType {
+
+    BIKING,HIKING,RUNNING,BASKETBALL;
 }
