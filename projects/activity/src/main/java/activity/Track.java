@@ -46,7 +46,8 @@ public class Track {
     }
 
     public double getRectangleArea() {
-        return 2318.4118;
+        return (trackPoints.get(0).getDistanceFrom(trackPoints.get(1)) * trackPoints.get(0).getDistanceFrom(trackPoints.get(3)))/1000;
+        //return 2318.4118;
     }
 
     public void loadFromGpx(InputStream is) {
