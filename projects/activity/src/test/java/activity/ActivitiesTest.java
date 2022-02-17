@@ -39,9 +39,9 @@ public class ActivitiesTest {
 
         List<Report> result = activities.distancesByTypes();
 
-        //assertEquals(0.0, result.get(1).getDistance());
+        assertEquals(0.0, result.get(1).getDistance());
 
-        //assertEquals(0.0, result.get(0).getDistance());
+        assertEquals(0.0, result.get(0).getDistance());
 
         assertEquals(ActivityType.RUNNING, result.get(2).getActivityType());
         assertEquals(27223158, result.get(2).getDistance(), 5);
