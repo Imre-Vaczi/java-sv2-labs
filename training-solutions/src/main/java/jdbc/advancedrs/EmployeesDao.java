@@ -4,6 +4,7 @@ import javax.sql.DataSource;
 import javax.xml.transform.Result;
 import java.sql.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class EmployeesDao {
@@ -83,5 +84,71 @@ public class EmployeesDao {
         }
     }
 
-    //public List<String> listOddEmployeeNames() {}
+    public List<String> listOddEmployeeNames() {
+        try (
+                Connection conn = dataSource.getConnection();
+                Statement stmt = conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_READ_ONLY);
+                ResultSet rs = stmt.executeQuery("select emp_name from employees;")
+        ) {
+            if (!rs.next()) {
+                return Collections.emptyList();
+            }
+            List<String> names = new ArrayList<>();
+            names.add(rs.getString("emp_name")); //initializing
+            while (rs.relative(2)) {
+                names.add(rs.getString("emp_name"));
+            }
+            return names;
+        }
+        catch (SQLException sqlException) {
+            throw new IllegalStateException("Can not query.");
+        }
+    }
+
+    public void updateNames() {
+        try (
+                Connection conn = dataSource.getConnection();
+                Statement stmt = conn.createStatement(
+                        ResultSet.TYPE_SCROLL_INSENSITIVE,
+                        ResultSet.CONCUR_UPDATABLE);
+                ResultSet rs = stmt.executeQuery("select id, emp_name from employees;")
+        ) {
+            while (rs.next()) {
+                String name = rs.getString("emp_name");
+                if (!name.startsWith("Jane")) {
+                    rs.updateString("emp_name", "Mr. " + name);
+                    rs.updateRow();
+                }
+            }
+        }
+        catch (SQLException sqlException) {
+            throw new IllegalStateException("Can not insert.", sqlException);
+        }
+    }
+
+    public String findEmployeeNameById(long id) {
+        try (
+                Connection conn = dataSource.getConnection();
+                PreparedStatement ps = conn.prepareStatement("select emp_name from employees where id = ?;")
+        ) {
+            ps.setLong(1, id);
+            return selectNameByPreparedStatement(ps);
+        }
+        catch (SQLException sqlException) {
+            throw new IllegalStateException("Can not find ID.", sqlException);
+        }
+    }
+
+    private String selectNameByPreparedStatement(PreparedStatement ps) {
+        try (ResultSet rs = ps.executeQuery()) {
+            if (rs.next()) {
+                return rs.getString("emp_name");
+            }
+            throw new IllegalArgumentException("Not found.");
+        }
+        catch (SQLException sqlException) {
+            throw new IllegalStateException("Issue", sqlException);
+        }
+    }
 }
